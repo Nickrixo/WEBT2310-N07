@@ -1,0 +1,222 @@
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+
+    #container{
+        color: white;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.441));
+        
+    }
+
+    .frontbanner {
+        display: block;
+        margin: 0 auto ;
+        width: 100%;
+        filter: invert(100%);
+        outline-width: 0px;
+    }
+
+
+    nav {
+       
+        margin-top: 0px;
+        text-align: center;   
+    }
+
+    nav ul {
+    list-style-type: none;
+    padding: 0px;
+    background-color: #00000093;
+    outline: 1px;
+    outline-color: rgb(133, 180, 180);
+    outline-style: solid;
+  
+
+    }
+
+    nav li {
+        display: block;
+        outline: 1px;
+    outline-color: rgb(133, 180, 180);
+    outline-style: solid;
+        
+    }
+
+    nav li a {
+       font-family: "Rubik Glitch", system-ui;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        
+        color: rgb(255, 255, 255);
+        font-size: 24px;   
+        text-decoration: none;
+        margin-top: 5px;
+        transition: all 0.3s ease-in-out;
+        
+    }
+
+    
+    body {
+        background-image: url(../Images/Soma_Ocean.jpg);
+        background-color: rgba(1, 23, 26, 0.207);
+        background-attachment: fixed;
+        background-position: 60%;
+        background-blend-mode: darken;
+    }
+
+    p {
+    font-family: "Michroma", sans-serif;
+    margin: 30px;
+    font-size: smaller;
+}
+    h1, h2, h3 {
+        text-align: center;
+        font-family: "Michroma", sans-serif;
+
+    }
+
+    .multi_col1 {
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    .multi_col2 {
+        margin: 10px;
+        margin-top: 20px;
+        }
+    .multi_col3 {
+        margin: 10px;
+        margin-top: 20px; 
+    }    
+
+    img {
+        outline-style: solid;
+        outline-width: 10px;
+        outline-color: rgba(0, 0, 0, 0.525);
+        width: 100%;
+        
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+    .synopsis img {
+    width: 90%;
+   }
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    
+    .multi_col1 {
+        display: flex;
+    }
+
+    .col1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .multi_col2 {
+    
+        display: flex;
+        
+        outline-width: 1px;
+        outline-color: white;
+        outline-style: solid;
+    }  
+    
+    .multi_col2 img {
+        width: 75%;
+        margin: 20px;
+    }
+
+   .col2 {
+    width: 100%;
+   }
+
+   .multi_col3{
+        display: flex;
+        
+        outline-width: 1px;
+        outline-color: white;
+        outline-style: solid;
+   }
+
+   .multi_col3 img{
+    width: 50%;
+    margin-top: 20px;
+   }
+   
+   .synopsis img {
+    width: 75%;
+   }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1080px) {
+
+ 
+
+    .logo {
+        padding: 10px;
+        width: 25%;
+        
+    }
+
+    .navbar {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.795);
+        
+        margin-bottom: 200px;
+    
+
+    }
+
+    nav ul {
+        outline-width: 0px;
+
+    }
+
+    nav li {
+        padding: 10px 75px 10px 75px;
+        display: inline-block;
+        outline-width: 0px;
+        transition: all 0.1s ease-in-out;
+        
+    }
+
+    nav li:hover {
+        outline-color: white;
+        outline-width: 2px;
+
+    }
+    
+    .frontbanner {
+        width: 65%;
+    }
+
+    body {
+        background-image: url(../Images/soma_sAGZAgo.png);
+        background-color: rgba(1, 23, 26, 0.207);
+        background-attachment: fixed;
+        background-position: 60%;
+        background-blend-mode: darken;
+    }
+    p {
+        font-size: x-large;
+    }
+
+    
+    h1, h2, h3 {
+        font-size: xx-large;
+    }
+  
+    
+}
