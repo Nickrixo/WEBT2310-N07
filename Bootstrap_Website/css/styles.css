@@ -1,0 +1,88 @@
+/* Work through the Bootstrap tutorial located in the Web Resources section.
+
+--Create a 4-page Bootstrap website complete with content. Be sure to include Bootstrap components below.
+
+--A Larger Header or Hero Section
+
+--Navigation bar
+
+--Carousel
+
+Tooltip
+
+At least 4 buttons in addition to the Navigation Bar.
+
+Create at least 3 image thumbnails with Modal on click.
+
+--Include a favicon for the site.
+
+--Add at least 4 icons thought out the site.
+
+--Add at least 3 Cards with images and content.
+
+Please include mobile, tablet and desktop view, this should be created using Flex.
+
+--Include 3 columns on at least one page and have it go from a 3 column on the desktop view to a single column on the mobile view. */
+
+body {
+    background-image: linear-gradient(to left, rgb(102, 86, 86), rgb(34, 19, 19)) ;
+}
+
+.navbar-brand img {
+width: 15%;
+}
+
+#header_image {
+    background-image: url(../images/KeyArt1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+
+
+#header_overlay {
+    background-color: rgba(0, 0, 0, 0.475);
+    padding: 20px;
+    width: 40%;
+    margin-top: 25%;
+
+}
+
+footer {
+    background-color: #212529;
+    
+}
+
+#container {
+    background-image: linear-gradient(to right, #1d2124, #212529);
+}
+
+#carouselExampleFade {
+    width: 50%;
+}
+
+@media (min-width: 320px){
+
+
+#carouselExampleFade {
+    width: 100%;
+}
+
+}
+
+ .multi_col {
+    
+        transition: all 0.3s ease-in-out;
+       
+        
+    }
+
+
+    .multi_col:hover {
+        box-shadow: 0px 12px 20px #151515;
+        transform: translateY(-5px);
+        border-radius: 15px;
+
+    }
