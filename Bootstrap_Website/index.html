@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="../Bootstrap_Website/index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">News</a>
@@ -31,10 +31,10 @@
             Gameplay
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Weapons</a></li>
-            <li><a class="dropdown-item" href="#">Maps</a></li>
+            <li><a class="dropdown-item" href="../Bootstrap_Website/weapons.html">Weapons</a></li>
+            <li><a class="dropdown-item" href="../Bootstrap_Website/maps.html">Maps</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Agents</a></li>
+            <li><a class="dropdown-item" href="../Bootstrap_Website/agents.html">Agents</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -42,8 +42,11 @@
         </li>
       </ul>
         
-        <button class="btn text-nowrap mx-auto btn-outline-danger" type="button">Download Now</button>
+        
     
+    </div>
+    <div class=" justify-content-md-end">
+    <button class="btn text-nowrap mx-auto btn-outline-danger" type="button">Download Now</button>
     </div>
   </div>
 </nav>
@@ -77,23 +80,23 @@
         <div class="row">
             <div class="multi_col col-lg-4 text-light">
                 <h2 class="text-center">FREE TO PLAY</h2>
-                <img class="img-fluid" src="images/Neon1.png" alt="Neon1">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi quidem rerum illo ut repellendus cupiditate neque, nobis quas ratione quos sit a veniam eius voluptates officiis placeat sunt culpa!</p>
+                <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="images/Neon1.png" alt="Neon1">
+                 <p>Lock in, gear up, and play for free! Valorant is the ultimate tactical shooter where precise aim meets powerful abilities. Jump into 5v5 matches, master your favorite agents, and prove your skill—all for free.</p>
                
                 </div>
 
                 <div class="multi_col col-lg-4 text-light">
                 <h2 class="text-center">VIBRANT SKIN BUNDLES</h2>
-                <img class="img-fluid" src="images/SkinBundle1.jpg" alt="Skin1">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi quidem rerum illo ut repellendus cupiditate neque, nobis quas ratione quos sit a veniam eius voluptates officiis placeat sunt culpa!</p>
+                <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal2" src="images/SkinBundle1.jpg" alt="Skin1">
+                 <p>Stand out. Show off. Dominate. Elevate your game with Valorant's stunning gun skins—crafted to turn every clutch into a highlight. From sleek futuristic designs to fiery animations, every skin lets you flex your style while landing that perfect headshot.</p>
                
             
             </div>
 
             <div class="multi_col col-lg-4 text-light">
                 <h2 class="text-center">QUEUE WITH FRIENDS</h2>
-                <img class="img-fluid" src="images/KeyArt2.jpg" alt="KeyArt2">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi quidem rerum illo ut repellendus cupiditate neque, nobis quas ratione quos sit a veniam eius voluptates officiis placeat sunt culpa!</p>
+                <img class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal3" src="images/KeyArt2.jpg" alt="KeyArt2">
+                 <p>Squad up and rule the lobby! Valorant is better with friends—team up, strategize, and pull off insane plays together. Whether you're grinding ranked or just vibing in unrated, every clutch, every laugh, every win hits harder with your crew.</p>
                
             
             </div>
@@ -104,6 +107,62 @@
         
 
     </div>
+
+/*Modal*/
+
+    <div class="modal modal-xl fade"  data-bs-theme="dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Neon</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="images/Neon1.png" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal modal-xl fade"  data-bs-theme="dark" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel2">Champions 2025 Knife & Vandal</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="images/SkinBundle1.jpg" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal modal-xl fade"  data-bs-theme="dark" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel3">Valorant Protocol</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="images/KeyArt2.jpg" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="row">
 
@@ -133,6 +192,9 @@
         <h1>NEW AGENTS, NEW MAPS, NEW SKINS, and MUCH MORE...</h1>
         <h3 class="fw-light mt-5 text-center"><span class="fw-bold">New map CORRODE</span> brings new challenges and strategies to play your favorite tactical shooter.</h3>
         <h3 class="fw-light mt-5 text-center">Slay your opponents in style with our latest <span class="fw-bold">exclusive gun skins.</span></h3>
+        <div class="col-lg-12 py4 text-center">
+        <i class="fa-solid fa-trophy fs-1 mx-2 my-3"></i>
+        </div>
     </div>
 
 </div>

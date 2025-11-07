@@ -30,6 +30,7 @@ body {
 
 .navbar-brand img {
 width: 15%;
+
 }
 
 #header_image {
@@ -70,7 +71,7 @@ footer {
     width: 100%;
 }
 
-}
+
 
  .multi_col {
     
@@ -86,3 +87,5 @@ footer {
         border-radius: 15px;
 
     }
+
+}    
