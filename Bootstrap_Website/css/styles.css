@@ -70,6 +70,38 @@ footer {
 
 @media (min-width: 320px){
 
+.agentController {
+    background-image: url(../images/iconControllerTrans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+}
+
+.agentDuelist {
+    background-image: url(../images/iconDuelistTrans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+}
+
+.agentInitiator {
+    background-image: url(../images/iconInitiatorTrans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+}
+
+.agentSentinel {
+    background-image: url(../images/iconSentinelTrans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+
+}
+
 
 #carouselExampleFade {
     width: 100%;
