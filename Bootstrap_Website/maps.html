@@ -10,9 +10,35 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/styles.css">
+</head>
 
 
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+<!--MODALS-->
+
+<div class="modal fade"  data-bs-theme="dark" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel3">Oops, sorry!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>This product is currently unavailable. Better luck next time, bum!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Darn!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="images/Valorant-Logo-PNG.png" alt="val-logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,34 +77,6 @@
   </div>
 </nav>
 
-</head>
-
-
-<!------MODALS------->
-
-<div class="modal fade"  data-bs-theme="dark" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel3">Oops, sorry!</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>This product is currently unavailable. Better luck next time, bum!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Darn!</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<body>
-
     <div id="jumbotron" class="row">
                     <div class="container-fluid ">
                         <div id="header_image" class=" p-5 text-bg-dark ">
@@ -105,7 +103,7 @@
         <hr class="text-light">
 
 
-<!---------------------------------------------------------------------------------------------------------->
+
             <div class="multi_col2">
                 
                 
@@ -527,7 +525,7 @@
                     <img class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Sunset" src="images/MapSunset.png" alt="...">
                 </div>
             </div>
-<!---------------------------------------------------------------------------------------------------------->
+
 
            <script>
             // Initialize tooltips
@@ -539,11 +537,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
     </div>
 
-</body>
-
-
-
-<footer class="p-5">
+    <footer class="p-5">
 
     <hr class="text-light">
     <p class="text-center text-light">&copy; VALORANT 2025</p>
@@ -557,5 +551,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 </div>
 
 </footer>
+
+</body>
 
 </html>
