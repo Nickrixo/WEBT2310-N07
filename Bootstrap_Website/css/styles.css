@@ -8,7 +8,7 @@
 
 --Carousel
 
-Tooltip
+--Tooltip
 
 At least 4 buttons in addition to the Navigation Bar.
 
@@ -64,6 +64,10 @@ footer {
     width: 50%;
 }
 
+
+
+
+
 @media (min-width: 320px){
 
 
@@ -88,4 +92,36 @@ footer {
 
     }
 
+    #header_overlay {
+        width: 100%;
+    }
+
+ .col2 {
+        
+        width: 100%;
+        background-image: radial-gradient(#3c4044,#212529 );
+        
+        
+    }
+
 }    
+
+@media (min-width: 720px){
+
+
+    #header_overlay {
+        width: 50%;
+    }
+
+    .multi_col2 {
+        display: flex;
+        background-image: linear-gradient(to left, rgb(102, 86, 86), rgb(34, 19, 19)) ;
+        margin-top: 20px;
+        
+    }
+
+   
+
+
+
+}
