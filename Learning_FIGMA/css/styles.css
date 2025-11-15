@@ -1,0 +1,145 @@
+/** Global Styles **/
+
+header {
+   background-image: linear-gradient(#0a0a0a, #0a0a0aa1); 
+   position: fixed;
+   width: 100%;
+   
+}
+
+footer {
+    background-color: #0a0a0a;
+}
+
+img {
+    display: block;
+    margin: auto 0;
+    width: 100%;
+}
+
+
+.multi_col { 
+    margin: auto 0; 
+    width: 100%;
+}
+
+.multi_col_header {
+    display: flex; 
+    background-color: #241210;   
+}
+
+.ramen1 {
+    width: 50%;
+}
+
+.col1 {
+    margin: auto 0;
+    display: block;
+    width: 100%;
+}
+
+
+body {
+
+font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(../images/ramen1DARK.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+ 
+}
+
+.yellow_spacer {
+    padding: 20px;
+    background-image: linear-gradient( #df9d0e, #d58e007d) ;
+}
+
+#header_overlay {
+    background-color: #d08e0088;
+    border-radius: 20px;
+    width: 75%;
+}
+
+.hanalei-fill-regular {
+  font-family: "Hanalei Fill", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.julius-sans-one-regular {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.LOGO {
+    font-family: "Hanalei Fill", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textbox1 {
+    background-image: linear-gradient(#1d1d1d, #00000096);
+
+    border-radius: 10px;
+}
+
+main {
+    margin: 40px;
+        background-color: #241210f9;
+         padding-bottom: 20px;
+}
+
+.ramenworker {
+    width: 75%;
+}
+
+  .col:hover {
+        box-shadow: 0px 12px 20px #151515;
+        transform: translateY(-5px);
+        border-radius: 15px;
+
+    }
+
+   .col {
+    
+        transition: all 0.3s ease-in-out;
+       
+        
+    }
+
+    .location_main {
+        padding-top: 100px;
+    }
+
+ @media (min-width: 375px) {
+
+    .comingsoon {
+        width: 100%;
+    }
+
+#container {
+   padding-top: 80px;
+}
+
+    .col {
+        width: 130%;
+        
+    }
+ }    
+
+ @media (min-width: 768px) {
+
+
+ }
+
+
+    @media (min-width: 1024px) {
+    .multi_col {
+            display: flex;  
+            width: 100%;
+    }
+    }
